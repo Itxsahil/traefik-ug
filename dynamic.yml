@@ -1,0 +1,7 @@
+http:
+  middlewares:
+    redirect-to-root:
+      redirectRegex:
+        regex: "^https://www\\.utkalgeeks\\.in(.*)"
+        replacement: "https://utkalgeeks.in$${1}"
+        permanent: true
